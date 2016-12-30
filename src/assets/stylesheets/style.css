@@ -1,5 +1,5 @@
 body {
-	background-color: #eeeff2;
+	background: #eeeff2 !important;
 	margin: 0px;
 }
 .icon {
@@ -25,6 +25,31 @@ body {
 #header-right img {
 	max-width: 10px;
 	max-height: 10px;
+}
+#content {
+	padding-top: 45px;
+	
+}
+.list-table {
+	background: white;
+	margin-left: 6px;
+    margin-right: 6px;	
+}
+.table-title {
+	text-align: center;
+	padding-top: 30px;
+}
+.table-title-day {
+	font-size: 17px;
+    font-weight: bold;
+}
+.table-title-date {
+	font-size: 10px;
+}
+.table-title-icon {
+	width: 8px;
+	margin: -12px 0px 0px 28px;
+    position: fixed;
 }
 .nav-title {
 	color: white;
