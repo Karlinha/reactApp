@@ -1,15 +1,17 @@
 import React from 'react';
 
-class NavBar extends React.Component {
+
+{/*class NavBar extends React.Component {
 	render() {
     var Pages = this.props.pageList;
     
     var navLinks = Pages.map(function(page){
       return (
-        <a href="#">{page}</a>
+        <li><a href="#">{page}</a></li>
       );
     }); 
-    return (<nav>{navLinks}</nav>);
+    return (<nav><ul>{navLinks}</ul></nav>);
   }
 }
 export default NavBar;
+*/}

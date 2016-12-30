@@ -2,23 +2,72 @@ body {
 	background-color: #eeeff2;
 	margin: 0px;
 }
-.wrapper {
-	min-height: 100%;
+.icon {
+    display: inline-block;
+    padding: 13px 13px 13px 13px;
 }
-.layout-header {
+
+#layout-header {
 	background-color: #0f91cf;
 	height: 45px;
 	width: 100%;
 	position: fixed;
 }
-.icon {
-    display: inline-block;
-    padding: 13px 13px 13px 13px;
+#header-left {
+
 }
-.icon a:hover {
-	color: black;
+#header-right {
+	float: right;
+	margin: -43px 65px 0px 0px;
+	font-size: 12px;
+	color: white;
+}
+#header-right img {
+	max-width: 10px;
+	max-height: 10px;
+}
+.nav-title {
+	color: white;
+	font-size: 12px;
+	padding-right: 15px;
+}
+.ui.dropdown>.dropdown.icon {
+    margin: 0 0 0 0 !important
+}
+.drop-menu {
+	margin-top: -30px !important;
+    margin-left: -30px !important;
 }
 
-a:hover {
-	color: black;
+nav {
+	font-size: 12px;
+	text-align: left;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 80px;
+}
+nav ul li{
+	position: relative;
+}
+nav li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+}
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: dimgray;
+	background: #fff;
+	padding: 10px;
+}
+nav li:hover ul { 
+	display: block; 
+}
+nav ul li a:hover {
+	background: #E8E8E8; 
 }
