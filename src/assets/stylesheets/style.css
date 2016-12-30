@@ -1,0 +1,24 @@
+body {
+	background-color: #eeeff2;
+	margin: 0px;
+}
+.wrapper {
+	min-height: 100%;
+}
+.layout-header {
+	background-color: #0f91cf;
+	height: 45px;
+	width: 100%;
+	position: fixed;
+}
+.icon {
+    display: inline-block;
+    padding: 13px 13px 13px 13px;
+}
+.icon a:hover {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
