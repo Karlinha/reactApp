@@ -1,7 +1,8 @@
 import React from 'react';
 import ListDivided from './List.jsx';
 import Table from './Table.jsx';
-
+import {Button} from 'react-bootstrap';
+import {Collapse} from 'react-bootstrap';
 const allData = [
 {
   'day': 'Hoje',
@@ -119,7 +120,13 @@ const allData = [
 }];
 
 class Content extends React.Component {
-	render() {
+	 constructor(...args) {
+    super(...args);
+
+    this.state = {};
+  }
+
+  render() {
 		return (
 			<div>
 				<div className="table-title">
@@ -133,6 +140,7 @@ class Content extends React.Component {
 				{/*<ListDivided  />*/}
 				<Table date={allData} />
 			</div>
+      
 		);
 	}
 }

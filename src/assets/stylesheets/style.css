@@ -23,7 +23,7 @@ body {
 #header-left {
 	color: white;
 }
- ul{
+.ul_s{
 	list-style-type: none;
     display: inline-flex;
     padding: 0;
@@ -138,7 +138,7 @@ body {
     font-weight: 500;
     padding-left: 24px;
     position: relative;
-    top: -10px;
+    top: -5px;
 }
 .col5 {
 	width: 240px;
@@ -148,6 +148,24 @@ body {
 	color: grey;
 	font-size: 15px;
 	padding: 0px 9px 0px 0px;
+}
+.collapse-div {
+	width: 77em;
+	border: 1px solid #f2f2f2;
+    background: #fafafa;
+    margin-top: 7px;
+}
+.collapse-div ul {
+	list-style: none;
+}
+.collapse-div2 ul {
+	width: 14em;
+    text-align: right;
+}
+.but-cost
+{
+	padding: 0px !important;
+	border: none !important;
 }
 nav {
 	font-size: 12px;

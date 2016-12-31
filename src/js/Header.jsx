@@ -21,9 +21,7 @@ class Header extends React.Component {
 
     return (
      <div id="layout-header">
-     		<div id="header-left">
-     			<ul>{Nav}</ul>	
-			</div>
+     		<div id="header-left" ><ul className="ul_s">{Nav}</ul></div>
 			<div id="header-right">
 				<DropdownHeader pageText="Maceió" pageList={List} />
 				<div className="styleName"></div>
