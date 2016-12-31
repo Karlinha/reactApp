@@ -131,7 +131,7 @@ class Content extends React.Component {
 				</div>
 
 				{/*<ListDivided  />*/}
-				<Table />
+				<Table date={allData} />
 			</div>
 		);
 	}

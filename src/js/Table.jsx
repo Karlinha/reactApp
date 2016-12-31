@@ -2,6 +2,7 @@ import React from 'react';
 
 class Table extends React.Component {
 	render() {
+		var ListData = this.props.date;
 		var List = ['folder_open', 'check', 'edit', 'cancel'];
 		var Nav = List.map(function(item){
       	return (
