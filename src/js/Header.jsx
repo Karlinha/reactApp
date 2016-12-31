@@ -7,23 +7,26 @@ class Header extends React.Component {
    render() {
    	var List = ['Maceió', 'Aracaju', 'Itabaiana', 'Estância', 'Propriá'];
    	var List2 = ['Meu Departamento', 'Meu Agendamento', 'Como Responsável', 'Departamento', 'Colaborador', 'Atrasados'];
+	var List3 = ['refresh','search', 'print', 'date_range', 'add'];
+	var Nav = List3.map(function(item){
       return (
-     	<div id="layout-header">
+        <li>
+     		<a href="#" data-toggle="tooltip" data-placement="bottom" title={item}>  
+				<i className="material-icons navbar-principal__icone icon-header">{item}</i>
+			</a>
+		</li>
+      );
+    });       
+
+    return (
+     <div id="layout-header">
      		<div id="header-left">
-				<a href="#" data-toggle="tooltip" data-placement="bottom" title="Hoje"> 
-					<img alt="refresh" src="/src/img/refresh-16.png" className="icon"/></a>
-				<a href="#" data-toggle="tooltip" data-placement="bottom" title="Buscar"> 
-					<img alt="search" src="/src/img/search-16.png" className="icon"/></a>
-				<a href="#" data-toggle="tooltip" data-placement="bottom" title="Imprimir"> 
-					<img alt="printer" src="/src/img/printer-16.png" className="icon"/></a>
-				<a href="#" data-toggle="tooltip" data-placement="bottom" title="Calendário"> 
-					<img alt="calendar" src="/src/img/calendar-16.png" className="icon"/></a>
-				<a href="#" data-toggle="tooltip" data-placement="bottom" title="Adicionar"> 
-					<img alt="plus" src="/src/img/plus-16.png" className="icon"/></a>
+     			<ul>{Nav}</ul>	
 			</div>
 			<div id="header-right">
 				<DropdownHeader pageText="Maceió" pageList={List} />
-				<DropdownHeader className="teste" pageText="Tudo" pageList={List2} />
+				<div className="styleName"></div>
+				<DropdownHeader  pageText="Tudo" pageList={List2} />
 			</div>	
         </div>
       );

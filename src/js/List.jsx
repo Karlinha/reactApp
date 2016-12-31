@@ -1,7 +1,7 @@
 import React from 'react'
 import { List } from 'semantic-ui-react'
 
-const ListExampleDivided = () => (
+const ListDivided = () => (
   <div className="list-table">
     <List divided relaxed>
       <List.Item>
@@ -31,4 +31,4 @@ const ListExampleDivided = () => (
   </div>
 )
 
-export default ListExampleDivided
+export default ListDivided

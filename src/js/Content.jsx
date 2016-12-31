@@ -1,5 +1,5 @@
 import React from 'react';
-import ListExampleDivided from './List.jsx';
+import ListDivided from './List.jsx';
 
 const allData = [
 {
@@ -124,12 +124,13 @@ class Content extends React.Component {
 				<div className="table-title">
 					<div className="table-title-day">{'HOJE'}</div>
 					<a href="#" data-toggle="tooltip" data-placement="bottom" title="Hoje"> 
-					<img className="table-title-icon" alt="plus" src="src/img/plus-blue-16.png"></img>
+					<i className="table-title-icon able-title-icon large material-icons navbar-principal__icone">add</i>
+					
 					</a>
 					<div className="table-title-date"><spam>{'20 de abril de 2015'}</spam></div>
 				</div>
 
-				<ListExampleDivided  />
+				<ListDivided  />
 			</div>
 		);
 	}
