@@ -59,6 +59,8 @@ body {
 }
 .table-title-date {
 	font-size: 10px;
+	position: relative;
+    left: 6px;
 }
 .table-title-icon {
 	width: 8px;
