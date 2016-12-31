@@ -7,14 +7,15 @@ class Header extends React.Component {
    render() {
    	var List = ['Maceió', 'Aracaju', 'Itabaiana', 'Estância', 'Propriá'];
    	var List2 = ['Meu Departamento', 'Meu Agendamento', 'Como Responsável', 'Departamento', 'Colaborador', 'Atrasados'];
-	var List3 = ['refresh','search', 'print', 'date_range', 'add'];
-	var Nav = List3.map(function(item){
+    var List3 = ['refresh','search', 'print', 'date_range', 'add'];
+	
+    var Nav = List3.map(function(item){
       return (
         <li>
-     		<a href="#" data-toggle="tooltip" data-placement="bottom" title={item}>  
-				<i className="material-icons navbar-principal__icone icon-header">{item}</i>
-			</a>
-		</li>
+          <a href="#" data-toggle="tooltip" data-placement="bottom" title={item}>  
+           <i className="material-icons navbar-principal__icone icon-header">{item}</i>
+			   </a>
+		    </li>
       );
     });       
 

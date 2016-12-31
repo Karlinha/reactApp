@@ -1,5 +1,6 @@
 import React from 'react';
 import ListDivided from './List.jsx';
+import Table from './Table.jsx';
 
 const allData = [
 {
@@ -125,12 +126,12 @@ class Content extends React.Component {
 					<div className="table-title-day">{'HOJE'}</div>
 					<a href="#" data-toggle="tooltip" data-placement="bottom" title="Hoje"> 
 					<i className="table-title-icon able-title-icon large material-icons navbar-principal__icone">add</i>
-					
 					</a>
 					<div className="table-title-date"><spam>{'20 de abril de 2015'}</spam></div>
 				</div>
 
-				<ListDivided  />
+				{/*<ListDivided  />*/}
+				<Table />
 			</div>
 		);
 	}
